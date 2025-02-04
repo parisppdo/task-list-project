@@ -1,14 +1,29 @@
-### Task Management Project created in Laravel
+# ✅ Task Management App
 
-In this project, I made a site in which the user can add, edit and delete tasks. 
-The user can mark the tasks as "completed" or "not completed", and the appropriate setting is shown in the screen.
-For the front-end looks, I used Tailwind CSS. For some real time operation of closing pop-up windows, I used Alpine.js
+## 📝 Overview
+A simple task management app built with Laravel and Tailwind CSS. Users can create, edit, mark as completed, and delete tasks. The app uses a database for persistence, and sample data is generated using factories.
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## 📸 Screenshot
+<img src="screenshots/task_overview.jpg" alt="Task Management App Screenshot" width="300">
+<img src="screenshots/add_task.jpg" alt="Add Task Screenshot" width="300">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+
+## 🚀 Features
+✔️ Add new tasks  
+✔️ View all tasks in a list  
+✔️ Mark tasks as completed (with strikethrough effect)  
+✔️ Edit existing tasks  
+✔️ Delete tasks  
+✔️ Flash messages for user actions  
+✔️ Uses Laravel factories to seed sample data
+
+## 📌 Usage
+* Open the app in your browser.
+* View all tasks on the main page.
+* Click "Add Task!" to create a new task.
+* Click on a task to edit or mark it as completed.
+* Use the delete button to remove a task.
+
+## ❗ Known Issues
+- No authentication (anyone can modify the tasks).
+    - 🔹 This feature is planned for a future update.
