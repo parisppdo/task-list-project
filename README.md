@@ -3,8 +3,9 @@
 ## 📝 Overview
 A simple task management app built with Laravel and Tailwind CSS. Users can create, edit, mark as completed, and delete tasks. The app uses a database for persistence, and sample data is generated using factories.
 
-## 📸 Screenshot
-<img src="screenshots/task_overview.jpg" alt="Task Management App Screenshot" width="300">
+## 📸 Screenshots
+<img src="screenshots/overview.jpg" alt="Task Management App Screenshot" width="300">
+<img src="screenshots/task_overview.jpg" alt="Task Overview Screenshot" width="300">
 <img src="screenshots/add_task.jpg" alt="Add Task Screenshot" width="300">
 
 
